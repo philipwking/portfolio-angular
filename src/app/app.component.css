@@ -1,14 +1,16 @@
 
 #appBody{
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
 
-
 #navBar{
+    background-color:white;
+
     font-size: xx-large;
     width: 80%;
     height: 100px;
@@ -25,6 +27,8 @@
 }
 
 #mainContain{
+    background-color:white;
+
     width: 80%;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -52,6 +56,8 @@ a {
 
 
 #footer{
+    background-color:white;
+
     border-style: solid;
     width: 80%;
     border-radius: 25px;
@@ -64,3 +70,5 @@ a {
     box-shadow: 10px 10px 10px;
 
 }
+
+
