@@ -16,7 +16,7 @@
 
 iframe{
     width: 100%;
-    height: 600px;
+    height: 620px;
     overflow: hidden;
     border-style: hidden;
 }
@@ -63,8 +63,4 @@ div{
     text-decoration: none;
     color:#ECF87F;
 
-}
-
-a{
-    padding: 10px;
 }
