@@ -18,7 +18,7 @@ iframe{
     width: 100%;
     height: 620px;
     overflow: hidden;
-    border-style: hidden;
+    border-style: solid;
 }
 
 .break{
@@ -59,4 +59,9 @@ div{
     border-style: double;
     text-decoration: none;
 
+}
+
+a{
+    color:black;
+    padding: 15px;
 }

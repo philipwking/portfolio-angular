@@ -16,6 +16,7 @@
     display: flex;
     justify-content: space-around;
     box-shadow: 10px 10px 10px;
+    border-style: solid;
 }
 
 .navlink{
@@ -29,6 +30,7 @@
     margin-bottom: 20px;
     border-radius: 25px;
     box-shadow: 10px 10px 10px;
+    border-style: solid;
 }
 
 #linkedIn{
@@ -41,6 +43,7 @@
 
 a {
     text-decoration: none;
+    color:black;
 }
 
 #github{
@@ -49,6 +52,7 @@ a {
 
 
 #footer{
+    border-style: solid;
     width: 80%;
     border-radius: 25px;
     display: flex;
