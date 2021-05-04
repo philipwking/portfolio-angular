@@ -1,7 +1,6 @@
 #homeBody{
     display: flex;
     flex-direction: row;
-    background-color: #59981A;
     border-radius: 25px;
 }
 
@@ -9,7 +8,6 @@
     padding: 30px;
     height:100%;
     width:100%;
-    background-color: #81B622;
     border-radius: 25px;
 }
 

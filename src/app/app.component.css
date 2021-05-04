@@ -4,8 +4,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #3D550C;
-    color:#ECF87F;
     justify-content: space-between;
 }
 
@@ -14,12 +12,10 @@
     font-size: xx-large;
     width: 80%;
     height: 100px;
-    background-color: violet;
     border-radius: 25px;
     display: flex;
     justify-content: space-around;
-    background-color: #81B622;
-    box-shadow: 10px 10px 1000px;
+    box-shadow: 10px 10px 10px;
 }
 
 .navlink{
@@ -31,9 +27,8 @@
     width: 80%;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: #59981A;
     border-radius: 25px;
-    box-shadow: 10px 10px 1000px;
+    box-shadow: 10px 10px 10px;
 }
 
 #linkedIn{
@@ -46,7 +41,6 @@
 
 a {
     text-decoration: none;
-    color:#ECF87F;
 }
 
 #github{
@@ -56,15 +50,13 @@ a {
 
 #footer{
     width: 80%;
-    background-color: violet;
     border-radius: 25px;
     display: flex;
     text-align: center;
     justify-content: space-around;
     height: 100px;
-    background-color: #81B622;
     align-items: center ;
     font-size: xx-large;
-    box-shadow: 10px 10px 1000px;
+    box-shadow: 10px 10px 10px;
 
 }
