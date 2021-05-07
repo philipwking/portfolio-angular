@@ -1,28 +1,28 @@
 
 
-<div id='appBody'>
-  <div id='navBar'>
-    <img src='../assets/images/logo.png'>
-    <div class='navlink' (click)="toggle(0)">home</div>
-    <div class='navlink' (click)="toggle(1)">blog</div>
-    <div class='navlink' (click)="toggle(2)">projects</div>
+<div class="container">
+  <div class="block flex space-x-40 space-y-20 border rounded-lg my-2 border-4 bg-gray-200">
+    <img class='flex-1 h-64 w-90 bg-white rounded-full' src='../assets/images/logo.png'>
+    <div class='flex-1 text-5xl p-4 font-bold'(click)="toggle(0)">home</div>
+    <div class='flex-1 text-5xl p-4 font-bold'(click)="toggle(1)">blog</div>
+    <div class='flex-1 text-5xl pr-40 p-4 font-bold'(click)="toggle(2)">projects</div>
   </div>
 
-  <div id='mainContain'>
+  <div class="container box-border border rounded-lg my-2 border-4 bg-gray-200">
     <app-home *ngIf="show === 0"></app-home>
     <app-blog *ngIf="show === 1"></app-blog>
     <app-projects *ngIf="show === 2"></app-projects>
   </div>
 
 
-  <div id='footer'>
-    <a id='emailMe' href='mailto:philipwking@gmail.com'>
+  <div class="container  box-border border rounded-lg my-2 border-4 flex bg-gray-200">
+    <a class='p-16 flex-1 text-5xl font-bold' href='mailto:philipwking@gmail.com'>
       philipwking@gmail.com
     </a>
-    <a id='linkedIn' href='https://www.linkedin.com/in/philip-king-0a80239b/'>
+    <a class='p-16 flex-1 text-5xl font-bold'href='https://www.linkedin.com/in/philip-king-0a80239b/'>
       LinkedIn
     </a>
-    <a id='github' href='https://github.com/philipwking'>
+    <a class='p-16 flex-1 text-5xl font-bold'href='https://github.com/philipwking'>
       Github
     </a>
   </div>
