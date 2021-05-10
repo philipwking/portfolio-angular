@@ -9,6 +9,12 @@ export class BlogComponent implements OnInit {
 
   constructor() { }
 
+  public show:number = 1;
+
+  toggle(id:number){
+    this.show = id;
+  }
+
   ngOnInit(): void {
   }
 
