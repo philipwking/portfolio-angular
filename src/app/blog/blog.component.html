@@ -1,25 +1,25 @@
-<div class='flex'>
-    <div class='w-1/5 m-2 bg-white rounded-lg'>
-        <div class='text-center p-4'>
+<div class='flex sm:flex-row xsm:flex-col'>
+    <div class='sm:w-1/5 sm:m-2 rounded-lg xsm:w-full xsm:m-0'>
+        <div class='text-center p-4 xsm:text-sm'>
             Articles:
         </div>
-        <div class='text-center p-4' (click)="toggle(1)">
+        <div class='text-center xsm:text-xs bg-white hover:bg-gray-200 cursor-pointer border-black border-2 rounded-lg overflow-visible' (click)="toggle(1)">
             Full FULL stack 5/10/21
         </div>
-        <div class='text-center p-4' (click)="toggle(0)">
+        <div class='text-center xsm:text-xs bg-white hover:bg-gray-200 cursor-pointer border-black border-2 rounded-lg' (click)="toggle(0)">
             Site Statement 5/10/21
         </div>
 
     </div>
-    <div class='w-4/5 m-2 bg-white rounded-lg'>
+    <div class='sm:w-4/5 m-2 bg-white rounded-lg xsm:w-full xsm:m-0'>
         <div *ngIf="show === 0">
-            <h1 class='text-center font-black text-4xl p-4'>
+            <h1 class='text-center font-black text-4xl p-4 xsm:text-sm'>
                 Site Statment
             </h1>
-            <p class='p-4'>
+            <p class='p-4 xsm:text-sm' >
                 Welcome to my site! Heres what I plan to do with it:
             </p>
-            <p class='p-4'>
+            <p class='p-4 xsm:text-sm'>
                 Firstly, I'm trying to find remote work. Lets not beat around the bush here - I got bills to pay and
                 this site is supposed to help me make the money to do so.
                 I'm passionate about technology and development but it is not my whole life. I also have a girlfriend
@@ -29,7 +29,7 @@
                 If you're interested in someone with those skills and that experience then reach out to my email at the
                 bottom of the site- or LinkedIn if thats more your cup of tea.
             </p>
-            <p class='p-4'>
+            <p class='p-4 xsm:text-sm'>
                 Another core function of my site is to display my new blog I'm starting. I've been a reader of
                 HackerNews for years and always enjoyed the insightful
                 blog posts from professionals. I'm no sage, at least not yet, but I want to get my 2 cents in. Indeed,
@@ -37,7 +37,7 @@
                 improve my writing as I continue to update this blog.
                  I want it to be a casual blog where I can focus on exploring ideas and expressing my opinion.
             </p>
-            <p class='p-4'> 
+            <p class='p-4 xsm:text-sm'> 
                 Lastly, my site is an constantly changing experiment of technologies. In previous versions it relied
                 on React but I have just recently redesigned it in Angular and then once more in Angular and
                 Tailwind.css, the current deployment. I gotta say, I was hesitant about Tailwind initially but now I'm starting love it. 
@@ -46,10 +46,10 @@
         </div>
 
         <div *ngIf="show === 1">
-            <h1 class='text-center font-black text-4xl p-4'>
+            <h1 class='text-center font-black text-4xl p-4 xsm:text-sm'>
                 Full FULL Stack
             </h1>
-            <p class='p-4'>
+            <p class='p-4 xsm:text-sm'>
                 It seems like every developer and their mother is a 'Full Stack Developer' and I have a bone to pick
                 with that term.
                 The implication behind the term is that the developer can basically create an application from start to
@@ -57,10 +57,10 @@
                 front and back end, great.
 
             </p>
-            <p class='p-4'>
+            <p class='p-4 xsm:text-sm'>
                 But what about the hardware and hosting?
             </p>
-            <p class='p-4'>
+            <p class='p-4 xsm:text-sm'>
                 Most full stack developers still require hosting services, like vercel, which I'm using to host this.
                 That fine- its very easy.
                 But its not realllly full stack is it? I personally want to eventually host this portfolio site on my
@@ -70,19 +70,19 @@
                 bad actors into my home. It would also take a lot of time for the price of the server equipment to
                 compare to the hosting fees.
             </p>
-            <p class='p-4'>
+            <p class='p-4 xsm:text-sm'>
                 Surely there are some upsides to this. I mean, it is a learning opportunity. You can have direct access
                 to your server with no middle man charging you a fee.
                 You can be directly responsible for your uptime, and can customize it in ways that might not be possible
                 with a hosting service. I'm sure I will discover more
                 benefits as I continue this journey.
             </p>
-            <p class='p-4'>
+            <p class='p-4 xsm:text-sm'>
                 Right now I have made a little progress. I got an old computer for free from a family member and installed Ubuntu Server on it. 
                 After hours of troubleshooting a faulty driver I was able to get it connected to my network and accessed it from laptop via SSL.
                 I'm not really sure what to do next.
             </p>
-            <p class='p-4'>
+            <p class='p-4 xsm:text-sm'>
                 To be continued, check in for an update soon!
             </p>
         </div>
