@@ -3,10 +3,16 @@
         <div class='text-center p-4 xsm:text-sm'>
             Articles:
         </div>
-        <div class='text-center xsm:text-xs bg-white hover:bg-gray-200 cursor-pointer border-black border-2 rounded-lg overflow-visible' (click)="toggle(1)">
+        <div class='text-center xsm:text-xs bg-white hover:bg-gray-200 cursor-pointer border-black border-2 rounded-lg overflow-visible'
+            (click)="toggle(2)">
+            Full FULL stack 6/09/21
+        </div>
+        <div class='text-center xsm:text-xs bg-white hover:bg-gray-200 cursor-pointer border-black border-2 rounded-lg overflow-visible'
+            (click)="toggle(1)">
             Full FULL stack 5/10/21
         </div>
-        <div class='text-center xsm:text-xs bg-white hover:bg-gray-200 cursor-pointer border-black border-2 rounded-lg' (click)="toggle(0)">
+        <div class='text-center xsm:text-xs bg-white hover:bg-gray-200 cursor-pointer border-black border-2 rounded-lg'
+            (click)="toggle(0)">
             Site Statement 5/10/21
         </div>
 
@@ -16,13 +22,15 @@
             <h1 class='text-center font-black text-4xl p-4 xsm:text-sm'>
                 Site Statment
             </h1>
-            <p class='p-4 xsm:text-sm' >
+            <p class='p-4 xsm:text-sm'>
                 Welcome to my site! Heres what I plan to do with it:
             </p>
             <p class='p-4 xsm:text-sm'>
-                I've always wanted a place where I could post the stuff I've made, so I made one. Right now I plan to maintain a projects section for 
-                things I've coded and a little blog. In the future I'm thinking about adding more sections for music or other random stuff. 
-                
+                I've always wanted a place where I could post the stuff I've made, so I made one. Right now I plan to
+                maintain a projects section for
+                things I've coded and a little blog. In the future I'm thinking about adding more sections for music or
+                other random stuff.
+
                 If you look to the home page you will find a list of technologies I have worked with.
                 I'm open to offers and you can reach me at my email at the
                 bottom of the site- or LinkedIn if thats more your cup of tea.
@@ -31,13 +39,14 @@
                 Concerning my blog: I want to get my 2 cents in. Indeed,
                 the best way to learn is to do, so I will no doubt
                 improve my writing as I continue to update this blog.
-                 I want it to be a casual blog where I can focus on exploring ideas and expressing my opinion.
+                I want it to be a casual blog where I can focus on exploring ideas and expressing my opinion.
             </p>
-            <p class='p-4 xsm:text-sm'> 
+            <p class='p-4 xsm:text-sm'>
                 Lastly, my site is an constantly changing experiment of technologies. In previous versions it relied
                 on React but I have just recently redesigned it in Angular and then once more in Angular and
-                Tailwind.css, the current deployment. I gotta say, I was hesitant about Tailwind initially but now I'm starting love it. 
-                As I learn new tools I implement them into this site and continue to improve it. 
+                Tailwind.css, the current deployment. I gotta say, I was hesitant about Tailwind initially but now I'm
+                starting love it.
+                As I learn new tools I implement them into this site and continue to improve it.
             </p>
         </div>
 
@@ -74,13 +83,53 @@
                 benefits as I continue this journey.
             </p>
             <p class='p-4 xsm:text-sm'>
-                Right now I have made a little progress. I got an old computer for free from a family member and installed Ubuntu Server on it. 
-                After hours of troubleshooting a faulty driver I was able to get it connected to my network and accessed it from laptop via SSL.
+                Right now I have made a little progress. I got an old computer for free from a family member and
+                installed Ubuntu Server on it.
+                After hours of troubleshooting a faulty driver I was able to get it connected to my network and accessed
+                it from laptop via SSL.
                 I'm not really sure what to do next.
             </p>
             <p class='p-4 xsm:text-sm'>
                 To be continued, check in for an update soon!
             </p>
+        </div>
+
+        <div *ngIf="show === 2">
+            <h1 class='text-center font-black text-4xl p-4 xsm:text-sm'>
+                Full FULL Stack
+            </h1>
+            <p class='p-4 xsm:text-sm'>
+                I finally found some time to make some progress on my self hosting adventure. Originally I wanted to
+                hook one of my existing apps straight into it,
+                but I was having a hard time re-reading my old code and trying to config the connection to my database.
+                Eventually I decided to make a simple
+                Mongodb Express Angular Node project to test it out.
+            </p>
+            <p class='p-4 xsm:text-sm'>
+                Earlier, I was able to enter the mongo terminal remotely using this string in terminal
+
+            </p>
+            <p class='p-4 xsm:text-sm'>
+
+                'mongo "mongodb://username@mongo_server_ip:27017"'
+            </p>
+            <p class='p-4 xsm:text-sm'>
+                And it seemed to me like I would probably do something similar in my project. I ended up setting
+                'mongodb://username:password@mongo_server_ip:27017' as
+                my url for my connection and it was finally connected! I was able to create a new database and fill it
+                with data from across my house!
+            </p>
+            <p class='p-4 xsm:text-sm'>
+                Now that I've made it to this point my mind is filled with questions like 'How do I go from here to
+                deployed publicly?' and 'How can I configure my network to be private and still allow people to view the
+                server?'
+            </p>
+            <p class='p-4 xsm:text-sm'>
+                Stay tuned for more..
+
+
+            </p>
+
         </div>
     </div>
 </div>

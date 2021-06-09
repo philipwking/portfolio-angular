@@ -9,7 +9,7 @@ export class BlogComponent implements OnInit {
 
   constructor() { }
 
-  public show:number = 1;
+  public show:number = 2;
 
   toggle(id:number){
     this.show = id;
